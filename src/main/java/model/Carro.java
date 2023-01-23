@@ -9,13 +9,13 @@ public class Carro {
     private int velocidadeAtual;
     private int velocidadeMaxima;
 
-    public Carro(String cor, String marca, String modelo, int ano, boolean ligado, int velocidadeAtual, int velocidadeMaxima) {
+    public Carro(String cor, String marca, String modelo, int ano, int velocidadeMaxima) {
         this.cor = cor;
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
-        this.ligado = ligado;
-        this.velocidadeAtual = velocidadeAtual;
+        this.ligado = false;
+        this.velocidadeAtual = 0;
         this.velocidadeMaxima = velocidadeMaxima;
     }
 
